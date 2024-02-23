@@ -62,7 +62,7 @@ def play_game():
       is_game_over = True
     else:
       user_should_deal = input(
-          "Type 'y' to draw another card or 'n' to pass: ")
+          "Type 'draw' to draw another card or 'stay' to pass: ")
       if user_should_deal == 'y':
         user_card.append(deal_card())
       else:
